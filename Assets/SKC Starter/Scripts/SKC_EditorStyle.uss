@@ -1,0 +1,21 @@
+﻿.row {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.header{
+	font-size: 15px;
+	color: #ffd800
+}
+
+.prefab-button{
+	height: 125px;
+	width: 125px;
+	margin: 5px;
+	justify-content:flex-end;
+}
+
+.prefab-button__icon{
+	pointer-events:none;
+}

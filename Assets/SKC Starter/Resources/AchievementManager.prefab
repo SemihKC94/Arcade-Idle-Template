@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7390881176240050748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7390881176240050747}
+  - component: {fileID: 7390881176240050746}
+  m_Layer: 0
+  m_Name: AchievementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7390881176240050747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7390881176240050748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7390881176240050746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7390881176240050748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea01631635207254c848ca26da9a0b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementPanel: {fileID: 0}
+  achievementGainedPrefab: {fileID: 7764695488194056223, guid: 7555ee6491ed13347b69ecb0c026a76e, type: 3}
+  achievementsNotGainPrefab: {fileID: 4937608842419388252, guid: 095583e5013dd2e49862a3bf169419df, type: 3}
+  achievementContainer: {fileID: 0}
+  achivements:
+  - achievementData: {fileID: 11400000, guid: 967f7cf3556479145a4208153edd4073, type: 2}
+  - achievementData: {fileID: 11400000, guid: 1379e2b72d5f5b940bdfc3f43de536d3, type: 2}
+  - achievementData: {fileID: 11400000, guid: caa1f2905b76929438c5450d4ba7f238, type: 2}
+  - achievementData: {fileID: 11400000, guid: f42f5b0c4231ef34d9950de5ad41b214, type: 2}
+  - achievementData: {fileID: 11400000, guid: 8b350c4c7bfb0dd4dbdf6d2542008dbe, type: 2}

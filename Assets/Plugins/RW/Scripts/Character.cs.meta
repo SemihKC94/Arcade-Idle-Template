@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1806a6cdb08623a428a4c40597e024b6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - handTransform: {instanceID: 0}
+  - sheathTransform: {instanceID: 0}
+  - shootTransform: {instanceID: 0}
+  - data: {fileID: 11400000, guid: 30c96dd908a923641b293771ea1d06c0, type: 2}
+  - hitBox: {instanceID: 0}
+  - anim: {instanceID: 0}
+  - shockWave: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

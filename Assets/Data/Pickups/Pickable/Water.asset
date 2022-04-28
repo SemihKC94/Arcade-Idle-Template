@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6adc5db588dfa7479472e8890e17c35, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemTier: 0
+  targetTag: Item/Water
+  itemAir: {fileID: 6167007763291480685, guid: b305ecd57bbd3ac4c9429191e3078b2f, type: 3}
+  itemEarth: {fileID: 4904534152689607549, guid: cc4a4667b6462a749945b04ca386dea8,
+    type: 3}
+  itemFire: {fileID: 8635197044305442338, guid: 81a46bff59d8b824eafbcbfae542f8c2,
+    type: 3}
+  itemWater: {fileID: 3822505691715266864, guid: ce32795719ba2fe418fd1bbe38d443c7,
+    type: 3}

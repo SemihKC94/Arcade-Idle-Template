@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+  <VisualElement class ="row">
+    <Label text="This is a customized editor window script" class="header"/>
+  </VisualElement>
+
+  <VisualElement class ="row">
+    <Button name="Test_Button_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon"/>
+      <Label text="Test Button" class="prefab-button__label"/>
+    </Button>
+  </VisualElement>
+    
+</engine:UXML>

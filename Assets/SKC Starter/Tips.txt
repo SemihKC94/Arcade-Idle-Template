@@ -1,0 +1,46 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Tips created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+*In coroutine , start other coroutine use this ------> yield return StartCoroutine(otherCoroutine());
+
+*Dont use Vector3.Distance if is possible, use this -----> (pointA - pointB).sqrMagnitude < urDist * urDist;
+
+*add this " using UnityEngines.Serialization " ur scripts namescapes , and this provides rename your valuable
+for example ------> [FormerlySerializedAs("HP")] public float health = 10f;
+
+*Collision or Collider func , use this instead of other.gameObject.tag == "Something" -----> other.Compare("Somethinf");
+
+*In visual studio, press alt + directionArrow -----> this provides move ur code one up or down;
+
+*Header func -----> [MenuItem("MyMenu/Do Something")]  add this, ur func, and ur func runable from unity menu
+
+*Debug.Log("somethins",gameObject) this provides if u click log , highlight gameObject;
+*Debug.Log("<color=red>This log color is RED </color>"); enough understandable
+
+*If possible , dont use Camera.main , use this -----> GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+
+*Not changing string like this Input.GetAxis("Fire1") or Input.GetAxis("MouseX") , cache it -----> static readonly string Fire1 = fİre";"
+
+*Profiler -----> if u inspect something as spesific use this func ---- Profiler.BeginSample("givename"); urFucn(); Profiler.EndSample();
+
+*GetComponent<Renderer>().material and GetComponent<Renderer>().sharedMaterial difference is .material create instance material(duplicate) , .shared mat will deploy stats a material from asset
+
+*HideFlags -----> Material mat = new Material() { hideFlags = HideFlags.HideAndDontSave };
+
+*MaterialPropertyBlock mpb;
+public MaterialPropertyBlock
+{
+	get
+	{
+		if(mpb == null) mpb = new MaterialPropertyBlock();
+		return mpb;
+	}
+}
+
+use ---> Mpb.color = Color.red; renderer.SetPropertyBlock(Mpb);
+
+*ShaderProperty caching = fe --> static readonly int shPropColor = Shader.PropertyToID("_Color");  use it ---> renderer.material.SetColor(shPropColor,Color.red);

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ab2b639f4ff314a962ad5a94ab058a, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  shootableObject: {fileID: 2768739269174503269, guid: 11b562f6cb866a24fbdc86cee0323f77,
+    type: 3}
+  staticShootable: {fileID: 769332345581668377, guid: 2f5aa1f129461c646be7008dc8268e05,
+    type: 3}
+  meleeWeapon: {fileID: 4141579295651927529, guid: 7127b469d232e3443972071e989a2bc9,
+    type: 3}
+  movementSpeed: 200
+  crouchSpeed: 100
+  crouchColliderHeight: 2.5
+  normalColliderHeight: 3
+  rotationSpeed: 180
+  crouchRotationSpeed: 70
+  jumpForce: 10
+  diveForce: 30
+  bulletInitialSpeed: 20
+  diveCooldownTimer: 2.1

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598f7dd1d4366024ca5c09e05a7bc353, type: 3}
+  m_Name: CanPotu
+  m_EditorClassIdentifier: 
+  type: 0
+  prefab: {fileID: 890952622609597676, guid: e6307d1f0be557846b5b2c7ebf51e072, type: 3}
+  useAble: 1
+  itemValue: 20
+  itemSprite: {fileID: 21300000, guid: 148afe25a385c354ea5513b05202e9ff, type: 3}
+  description: Bu sana can verir amele.

@@ -1,0 +1,2 @@
+// Plane1x1'deki canvaslar dinamik değil sürekli alphası 1 de olsun.
+// Harcayacağımız goldları kaydet
