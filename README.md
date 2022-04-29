@@ -2,4 +2,4 @@
 Arcade Idle Template 
 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](http://semihkubilay.com/movie_011.gif)
