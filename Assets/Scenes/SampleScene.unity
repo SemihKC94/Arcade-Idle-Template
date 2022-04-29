@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.24647538, g: 0.28234535, b: 0.3457032, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -336,7 +336,7 @@ PrefabInstance:
     - target: {fileID: 1617680178248422258, guid: 784cfbd7a69d0cb4c99229f51ac7c4bb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2075387807356921972, guid: 784cfbd7a69d0cb4c99229f51ac7c4bb,
         type: 3}
@@ -3142,7 +3142,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.56062883, y: -0.000000014248038, z: 0.000000009646394, w: 0.82806724}
+  m_LocalRotation: {x: 0.56062883, y: 0.000000014248041, z: -0.000000009646396, w: 0.82806724}
   m_LocalPosition: {x: -21.3, y: 22.86, z: 7.6000004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3650,7 +3650,7 @@ PrefabInstance:
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: TopNavMeshObs
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
@@ -3686,6 +3686,16 @@ PrefabInstance:
         type: 3}
       propertyPath: ShowSavedElements
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150611201928941108, guid: 92a6c47138ccc6c4d97a9809771e6bad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938936834120775180, guid: 92a6c47138ccc6c4d97a9809771e6bad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8641427055713113340, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
@@ -4588,7 +4598,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359146485}
-  m_LocalRotation: {x: 0.56062883, y: -0.000000014248038, z: 0.000000009646394, w: 0.82806724}
+  m_LocalRotation: {x: 0.56062883, y: 0.000000014248041, z: -0.000000009646396, w: 0.82806724}
   m_LocalPosition: {x: -21.3, y: 22.86, z: 7.6000004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5025,10 +5035,15 @@ PrefabInstance:
         type: 3}
       propertyPath: rightNeighbour
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2091741651}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: RightNavMeshObs
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
+        type: 3}
+      propertyPath: ShowRightImages
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
@@ -5038,12 +5053,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
+      propertyPath: ShowRightTMPUGUI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
+        type: 3}
       propertyPath: ShowRightElements
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: ShowSavedElements
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
+        type: 3}
+      propertyPath: ShowRightColliders
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
@@ -5054,7 +5079,7 @@ PrefabInstance:
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: ShowRightCanvasGroup
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6847198872247568357, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
@@ -5986,7 +6011,7 @@ PrefabInstance:
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: ShowNeighbours
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
@@ -6006,7 +6031,7 @@ PrefabInstance:
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: ShowRightElements
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
@@ -6021,6 +6046,16 @@ PrefabInstance:
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: ShowRightCanvasGroup
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150611201928941108, guid: 92a6c47138ccc6c4d97a9809771e6bad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938936834120775180, guid: 92a6c47138ccc6c4d97a9809771e6bad,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7879,7 +7914,7 @@ PrefabInstance:
     - target: {fileID: 2441311584322258094, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967279499809696801, guid: 92a6c47138ccc6c4d97a9809771e6bad,
         type: 3}
