@@ -1,3 +1,8 @@
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 
 public class CameraFinderForWorldSpaceCanvas : MonoBehaviour
@@ -13,3 +18,6 @@ public class CameraFinderForWorldSpaceCanvas : MonoBehaviour
         thisCanvas.worldCamera = mainCam;
     }
 }
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */

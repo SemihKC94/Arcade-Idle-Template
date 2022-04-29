@@ -1,5 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 
 public class PickupObject : MonoBehaviour
@@ -56,3 +59,6 @@ public class PickupObject : MonoBehaviour
         router.FlyToTarget(target,true,0f,pickUpData);
     }
 }
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */

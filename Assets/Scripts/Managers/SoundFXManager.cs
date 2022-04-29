@@ -1,6 +1,12 @@
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 public class SoundFXManager : MonoBehaviour
 {
+    [Header("Audio Clips")]
     public AudioClip[] jumpSounds;
     public AudioClip[] rightFootSteps;
     public AudioClip[] leftFootSteps;
@@ -9,7 +15,6 @@ public class SoundFXManager : MonoBehaviour
     public AudioClip pickUp;
     public AudioClip pickDown;
 
-    public static SoundFXManager Instance;
 
     [SerializeField]
     private AudioSource audioSource = null;
@@ -29,6 +34,8 @@ public class SoundFXManager : MonoBehaviour
     private float defaultPitch;
     private bool rightStep;
     private AudioClip footStepSfx;
+    
+    public static SoundFXManager Instance;
 
     private void Awake()
     {
@@ -80,4 +87,8 @@ public class SoundFXManager : MonoBehaviour
         audioSource.pitch = randomPitch ? Random.Range(minPitch, maxPitch) : defaultPitch;
         audioSource.PlayOneShot(clip);
     }
+
+    /* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */
 }

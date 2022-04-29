@@ -1,5 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 
 [CreateAssetMenu(fileName ="AI Movement Data",menuName ="Arcade Idle/Movement Data")]
@@ -9,3 +12,6 @@ public class MovementSO : ScriptableObject
     public float movementSpeed = 150f;
     public float gravity = 3f;
 }
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */

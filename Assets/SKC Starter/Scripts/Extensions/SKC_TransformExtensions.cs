@@ -1,3 +1,8 @@
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -123,3 +128,6 @@ public static class SKC_TransformExtensions
         return children;
     }
 }
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */

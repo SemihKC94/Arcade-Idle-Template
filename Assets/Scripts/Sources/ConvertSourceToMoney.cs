@@ -1,5 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 
 public class ConvertSourceToMoney : MonoBehaviour
@@ -40,3 +43,6 @@ public class ConvertSourceToMoney : MonoBehaviour
         CharacterManager.Instance.SetTargetMining(Vector3.zero,false,false);
     }
 }
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */

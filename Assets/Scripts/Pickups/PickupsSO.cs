@@ -1,5 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 
 [CreateAssetMenu(fileName ="New Pickup Object Data",menuName = "Arcade Idle/Pickup Object Data")]
@@ -21,4 +24,6 @@ public class PickupsSO : ScriptableObject
     public GameObject itemWater;
 
 }
-
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */

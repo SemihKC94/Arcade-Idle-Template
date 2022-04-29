@@ -1,5 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 using HeathenEngineering.Events;
 
@@ -35,3 +38,6 @@ public class TriggerSignalSender : MonoBehaviour
         if(other.gameObject.CompareTag(exitTag)) TriggerExit.Invoke(other);
     }
 }
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */

@@ -1,5 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿/*//////////////////////////////////////////////////////////////////////////////////////////
+//      █─▄▄▄▄█▄─█─▄█─▄▄▄─█                                                               //
+//      █▄▄▄▄─██─▄▀██─███▀█             Scripts created by Semih Kubilay Çetin            //
+//      ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////*/
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -403,17 +406,21 @@ public class Plane1x1 : MonoBehaviour
 #endregion
 }
 
-        // switch(whichTrigger)
-        // {
-        //     case "Top":
-                
-        //         break;
+// switch(whichTrigger)
+// {
+//     case "Top":
 
-        //     case "Left":
+//         break;
 
-        //         break;
+//     case "Left":
 
-        //     case "Right":
+//         break;
 
-        //         break;
-        // }
+//     case "Right":
+
+//         break;
+// }
+
+/* Tip    #if UNITY_EDITOR
+          Debug.Log("Unity Editor");
+          #endif                          Tip End */
